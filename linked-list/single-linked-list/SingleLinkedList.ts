@@ -11,7 +11,7 @@ class ListNode<T> {
   }
 }
 
-export class LinearList<T> {
+export class SingleLinkedList<T> {
   private head: ListNode<T> = null;
   private length = 0;
 
